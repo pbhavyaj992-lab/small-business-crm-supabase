@@ -55,3 +55,9 @@ Postgres, Supabase Auth, Row Level Security. That is it.
 ## Contact
 
 If you want me to build a version like this for your business, tell me what services you offer, how bookings work now, and who should see what. I can work from there.
+
+## What I would do differently
+
+- This SQL has never been run against a live Supabase project. I would run `schema.sql`, `rls_policies.sql` and `seed_demo_data.sql` in a free project and work through `docs/tenant_isolation_test.md` with two real auth users, so the isolation claim is proven, not just designed.
+- There is no front end in this folder. I would build a small one (customers, bookings, invoices) so the demo can be clicked through instead of only read in SQL.
+- I would add roles inside a company (owner, staff, viewer) and a proper subscription check in the app, since the subscription fields here are only columns and charge nobody.
