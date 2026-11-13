@@ -1,8 +1,8 @@
-# Small-Business CRM / Booking App — Demo
+# Supabase CRM / Booking App — Demo
 
 I built this as a demo. It is not a production system.
 
-I wanted a small example I could show a client in a few minutes. It looks like the kind of CRM a detailing studio, a garage, or a small service business would use. I based the idea on the work I did on ISHAN Detailing OS — the real product is live at https://getishan.in — but this is a fresh demo. I did not copy any production code from ISHAN into it.
+I wanted an example I could show a client in a few minutes. It looks like the kind of CRM a detailing studio, a garage, or a service business would use. I based the idea on the work I did on ISHAN Detailing OS — the real product is live at https://getishan.in — but this is a fresh demo. I did not copy any production code from ISHAN into it.
 
 ## What it does
 
@@ -46,7 +46,7 @@ If a real business asked me to build this for them, I would not ship this demo a
 - The data is fake.
 - There is no front end in this folder.
 - The subscription fields are just columns. They do not charge anyone.
-- I have not tested this with a large number of users. It is a demo for two small studios.
+- I have not tested this with a large number of users. It is a demo for two studios.
 
 ## Tech used
 
